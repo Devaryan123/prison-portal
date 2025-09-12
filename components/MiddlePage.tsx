@@ -15,7 +15,7 @@ export default function NewsLayout() {
             </div>
             <div className="flex items-baseline flex-col gap-4 border-gray-200">
               {/* <div className="flex items-center  flex-1 gap-2 mb-6"> */}
-              <Card className="overflow-hidden w-110 shadow-sm p-0 rounded-lg">
+              <Card className="overflow-hidden w-100 shadow-sm p-0 rounded-lg">
                 {/* make this wrapper the hover group */}
                 <div className="relative aspect-video group">
                   <img
