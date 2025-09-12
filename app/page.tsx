@@ -8,8 +8,8 @@ import MiddlePage from "../components/MiddlePage";
 const page = () => {
   return (
     <div>
-      <div className="flex items-center gap-2 mt-20 ">
-        <p className="text-3xl font-medium ml-10 text-blue-800 font-serif w-85 ">
+      <div className="flex items-center gap-1 mt-20 ">
+        <p className="text-3xl font-medium ml-8 text-blue-800 font-serif w-85 ">
           Your platform for prison reform & research
         </p>
         <Lightbulb size={40} color="#c4c615" />
