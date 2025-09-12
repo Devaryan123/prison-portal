@@ -11,7 +11,7 @@ const NextMiddle = () => {
       </h1>
       <div className="flex justify-center flex-col mt-10 md:mt-10 md:gap-30 md:flex-row  gap-10 items-center  ">
         <div>
-          <Card className="overflow-hidden w-110 shadow-sm p-0 rounded-lg">
+          <Card className="overflow-hidden w-100 shadow-sm p-0 rounded-lg">
             {/* make this wrapper the hover group */}
             <div className="relative aspect-video group">
               <img
@@ -83,7 +83,7 @@ const NextMiddle = () => {
           </div>
         </div>
         <div>
-          <Card className="overflow-hidden w-110 shadow-sm p-0 rounded-lg">
+          <Card className="overflow-hidden w-100 shadow-sm p-0 rounded-lg">
             {/* make this wrapper the hover group */}
             <div className="relative aspect-video group">
               <img
