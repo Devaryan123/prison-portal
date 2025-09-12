@@ -5,15 +5,19 @@ import { Badge } from "@/components/ui/badge";
 import { Flame } from "lucide-react";
 import MiddlePage from "../components/MiddlePage";
 import NextMiddle from "@/components/NextMiddle";
+import MiddleLast from "@/components/MiddleLast";
 
 const page = () => {
   return (
     <div>
-      <div className="flex items-center gap-1 mt-20 ">
-        <p className="text-3xl font-medium ml-8 text-blue-800 font-serif w-85 ">
+      <div className="flex items-center mt-20 ">
+        <p className="text-3xl flex font-medium ml-8 text-blue-800 font-serif w-70 h-20 ">
           Your platform for prison reform & research
+          <Lightbulb size={80} color="#c4c615" />
+          
+
         </p>
-        <Lightbulb size={40} color="#c4c615" />
+        
       </div>
       <SearchBar />
       <div className="flex flex-wrap gap-2 mt-5 justify-between px-10">
@@ -56,6 +60,9 @@ const page = () => {
       </div>
       <div>
         <NextMiddle></NextMiddle>
+      </div>
+      <div>
+        <MiddleLast></MiddleLast>
       </div>
     </div>
   );

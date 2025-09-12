@@ -4,18 +4,18 @@ import { Bookmark, Edit3, FileText, Send, Sparkles, Zap } from "lucide-react";
 
 export default function NewsLayout() {
   return (
-    <div className="min-h-screen  p-4">
+    <div className="p-4">
       <div className="max-w-5xl mx-auto md:mx-25  justify-between gap-8">
         {/* Featured Section */}
-        <div className="flex items center flex-col md:flex-row gap-8  ">
+        <div className="flex items center flex-col md:flex-row gap-12  ">
           <div>
-            <div className="flex items-center  flex-1 gap-2 mb-6 ">
+            <div className="flex items-center  flex-1 gap-3 mb-6 ">
               <Sparkles className="w-5 h-5 text-gray-600" />
               <h2 className="text-lg font-medium text-gray-600">Featured</h2>
             </div>
             <div className="flex items-baseline flex-col gap-4 border-gray-200">
               {/* <div className="flex items-center  flex-1 gap-2 mb-6"> */}
-              <Card className="overflow-hidden w-90 shadow-sm p-0 rounded-lg">
+              <Card className="overflow-hidden w-90 md:w-140 md:mt-10 shadow-sm p-0 rounded-lg">
                 {/* make this wrapper the hover group */}
                 <div className="relative aspect-video group">
                   <img
@@ -106,7 +106,7 @@ export default function NewsLayout() {
               <div className="p-4 border-b">
                 <div className="flex flex-row md:flex-row items-center gap-8">
                   {/* image card */}
-                  <Card className="overflow-hidden bg-white w-40 h-40 p-0 rounded-lg shadow-sm">
+                  <Card className="overflow-hidden bg-white w-30 h-30 p-0 rounded-lg shadow-sm">
                     <div className="relative aspect-square">
                       <img
                         src="/Trending1.webp"
@@ -142,7 +142,7 @@ export default function NewsLayout() {
             <div className="p-4 border-b">
               <div className="flex flex-row md:flex-row items-center gap-8">
                 {/* image card */}
-                <Card className="overflow-hidden bg-white w-40 p-0 rounded-lg shadow-sm">
+                <Card className="overflow-hidden bg-white w-30 p-0 rounded-lg shadow-sm">
                   <div className="relative aspect-square">
                     <img
                       src="/Trending3.webp"
@@ -176,7 +176,7 @@ export default function NewsLayout() {
             <div className="p-4 ">
               <div className="flex flex-row md:flex-row items-center gap-8 ">
                 {/* image card */}
-                <Card className="overflow-hidden bg-white w-40 p-0 rounded-lg shadow-sm">
+                <Card className="overflow-hidden bg-white w-30 p-0 rounded-lg shadow-sm">
                   <div className="relative aspect-square">
                     <img
                       src="/Trending2.webp"
