@@ -4,6 +4,7 @@ import { Lightbulb } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Flame } from "lucide-react";
 import MiddlePage from "../components/MiddlePage";
+import NextMiddle from "@/components/NextMiddle";
 
 const page = () => {
   return (
@@ -52,7 +53,9 @@ const page = () => {
       </div>
       <div>
         <MiddlePage></MiddlePage>
-
+      </div>
+      <div>
+        <NextMiddle></NextMiddle>
       </div>
     </div>
   );
