@@ -11,11 +11,9 @@ const page = () => {
   return (
     <div>
       <div className="flex items-center mt-20 ">
-        <p className="text-3xl flex font-medium ml-8 text-blue-800 font-serif w-80 h-25 ">
+        <p className="text-3xl flex font-medium ml-8 md:ml-15 text-blue-800 font-serif w-80 h-25 ">
           Your platform for prison reform & research
-          <Lightbulb size={80} color="#c4c615" />
-          
-
+          <Lightbulb size={100} color="#c4c615" />
         </p>
         
       </div>

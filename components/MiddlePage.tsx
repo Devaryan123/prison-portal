@@ -7,9 +7,9 @@ export default function NewsLayout() {
     <div className="p-4">
       <div className="max-w-5xl mx-auto md:mx-30  justify-between gap-8">
         {/* Featured Section */}
-        <div className="flex items center flex-col md:flex-row gap-12  ">
+        <div className="flex items center flex-col md:flex-row gap-10 md:gap-5  ">
           <div>
-            <div className="flex items-center  flex-1 gap-3 mb-6 ">
+            <div className="flex items-center flex-1 gap-3 mb-6 ">
               <Sparkles className="w-5 h-5 text-gray-600" />
               <h2 className="text-lg font-medium text-gray-600">Featured</h2>
             </div>
@@ -22,6 +22,8 @@ export default function NewsLayout() {
                     src="/Featured.webp"
                     alt="Prison corridor"
                     className="absolute inset-0 w-full h-full object-cover"
+                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+
                   />
 
                   {/* Article label - appears on hover */}
