@@ -6,10 +6,10 @@ import { Bookmark, Edit3, FileText, Send } from "lucide-react";
 const NextMiddle = () => {
   return (
     <div>
-      <h1 className="ml-10 font-sans text-gray-500 w-80 md:ml-20">
+      <h1 className="ml-10 font-sans text-gray-500 w-80 md:ml-20 md:mt-10">
         Rules, Standards, and International Frameworks
       </h1>
-      <div className="flex justify-center flex-col mt-10 md:mt-10 md:gap-30 md:flex-row md:ml-10 gap-10 items-center  ">
+      <div className="flex justify-center flex-col mt-10 md:mt-10 md:gap-30 md:flex-row md:ml-10 gap-10 items-center ">
         <div>
           <Card className="overflow-hidden w-90  md:w-120 shadow-sm p-0 rounded-lg">
             {/* make this wrapper the hover group */}
