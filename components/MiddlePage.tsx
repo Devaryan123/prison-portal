@@ -106,7 +106,7 @@ export default function MiddlePage() {
               <div className="p-4 border-b">
                 <div className="flex flex-row md:flex-row items-center gap-8">
                   {/* image card */}
-                  <Card className="overflow-hidden bg-white w-30 h-30 p-0 rounded-lg shadow-sm">
+                  <Card className="overflow-hidden bg-white w-30 h-30 p-0 rounded-lg shadow-sm md:w-40">
                     <div className="relative aspect-square">
                       <img
                         src="/Trending1.webp"
@@ -142,7 +142,7 @@ export default function MiddlePage() {
             <div className="p-4 border-b">
               <div className="flex flex-row md:flex-row items-center gap-8">
                 {/* image card */}
-                <Card className="overflow-hidden bg-white w-30 p-0 rounded-lg shadow-sm">
+                <Card className="overflow-hidden bg-white w-30 p-0 rounded-lg shadow-sm md:w-40">
                   <div className="relative aspect-square">
                     <img
                       src="/Trending3.webp"
@@ -176,7 +176,7 @@ export default function MiddlePage() {
             <div className="p-4 ">
               <div className="flex flex-row md:flex-row items-center gap-8 ">
                 {/* image card */}
-                <Card className="overflow-hidden bg-white w-30 p-0 rounded-lg shadow-sm">
+                <Card className="overflow-hidden bg-white w-30 p-0 rounded-lg shadow-sm md:w-40">
                   <div className="relative aspect-square">
                     <img
                       src="/Trending2.webp"
