@@ -4,7 +4,7 @@ import { Bookmark, Edit3, FileText, Send, Sparkles, Zap } from "lucide-react";
 
 export default function MiddlePage() {
   return (
-    <div className="m-4 flex flex-col md:flex-row gap-6 md:gap-0 w-11/12 md:w-10/12 md:ml-20 justify-between h-fit">
+    <div className="m-2 flex flex-col md:flex-row gap-6 md:gap-0 w-11/12 md:w-10/12 md:ml-15 justify-between h-fit">
       <div className="w-full md:w-[45%] space-y-6 ">
         {/* Featured Section */}
         <div className="flex items center flex-col md:flex-row gap-10 md:gap-5  ">
@@ -94,7 +94,7 @@ export default function MiddlePage() {
           </div>
 
           {/* Trending Section */}
-          <div className="flex flex-col md:mx-20">
+          <div className="flex flex-col md:mx-30">
             <div>
               <Zap className="w-5 h-5 text-gray-600" />
               <h2 className="text-lg font-medium text-gray-600">Trending</h2>

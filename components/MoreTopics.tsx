@@ -1,7 +1,7 @@
 
 const MoreTopics = () => {
     return (
-        <div className='flex flex-col gap-4 items-center justify-center w-full'>
+        <div className='flex flex-col gap-4 items-center justify-center w-full my-10'>
             <div className='w-11/12 md:w-10/12'>
                 <h3 className='font-semibold text-lg text-brand-primary-900'>More Topics</h3>
             </div>
