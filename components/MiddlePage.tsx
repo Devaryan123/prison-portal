@@ -2,7 +2,7 @@ import { Avatar } from "@/components/ui/avatar";
 import { Card } from "@/components/ui/card";
 import { Bookmark, Edit3, FileText, Send, Sparkles, Zap } from "lucide-react";
 
-export default function NewsLayout() {
+export default function MiddlePage() {
   return (
     <div className="p-4">
       <div className="max-w-5xl mx-auto md:mx-30  justify-between gap-8">
