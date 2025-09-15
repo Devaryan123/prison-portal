@@ -106,7 +106,7 @@ export default function MiddlePage() {
               <div className="p-4 border-b">
                 <div className="flex flex-row md:flex-row items-center gap-8">
                   {/* image card */}
-                  <Card className="overflow-hidden bg-white w-30 h-30 p-0 rounded-lg shadow-sm md:w-40">
+                  <Card className="overflow-hidden bg-white w-30 h-30 p-0 rounded-lg shadow-sm md:w-40 md:h-40">
                     <div className="relative aspect-square">
                       <img
                         src="/Trending1.webp"
