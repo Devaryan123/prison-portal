@@ -106,7 +106,7 @@ const MiddleLast = () => {
         </Card>
         <Card className="border-0 shadow-none p-0">
           <CardContent className="p-0 relative group overflow-hidden">
-            <Image src={"/OIP.webp"} alt="Featured" width={400} height={400} className="w-full h-96 object-cover rounded-xl" />
+            <Image src={"/Trending1.webp"} alt="Featured" width={400} height={400} className="w-full h-96 object-cover rounded-xl" />
             <div className="absolute w-full h-full bg-gradient-to-b from-zinc-700/10 to-zinc-900/60 left-0 top-0 justify-between py-4 items-center flex flex-col transition-all duration-200 rounded-xl">
               <div className="w-11/12 flex justify-between h-fit md:group-hover:opacity-100 md:opacity-0 transition-opacity">
                 <Badge variant="secondary" className="px-2.5 py-1.5 space-x-px h-fit">

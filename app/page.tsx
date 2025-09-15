@@ -7,6 +7,7 @@ import MiddlePage from "../components/MiddlePage";
 import NextMiddle from "@/components/NextMiddle";
 import MiddleLast from "@/components/MiddleLast";
 import ShareCard from "@/components/ShareCard";
+import OverCrowding from "@/components/OverCrowding";
 
 const page = () => {
   return (
@@ -65,6 +66,12 @@ const page = () => {
       </div>
       <div>
         <ShareCard></ShareCard>
+      </div>
+      <div>
+        <OverCrowding></OverCrowding>
+      </div>
+      <div>
+        <MiddleLast></MiddleLast>
       </div>
     </div>
   );
