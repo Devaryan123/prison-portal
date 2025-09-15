@@ -6,7 +6,7 @@ import { Bookmark, Edit3, FileText, Send } from "lucide-react";
 const NextMiddle = () => {
   return (
     <div>
-      <h1 className="ml-10 font-sans text-gray-500 w-80">
+      <h1 className="ml-10 font-sans text-gray-500 w-80 md:ml-20">
         Rules, Standards, and International Frameworks
       </h1>
       <div className="flex justify-center flex-col mt-10 md:mt-10 md:gap-30 md:flex-row md:ml-10 gap-10 items-center  ">
