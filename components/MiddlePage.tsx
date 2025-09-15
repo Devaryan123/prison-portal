@@ -4,8 +4,8 @@ import { Bookmark, Edit3, FileText, Send, Sparkles, Zap } from "lucide-react";
 
 export default function MiddlePage() {
   return (
-    <div className="p-4">
-      <div className="max-w-5xl mx-15 md:mx-30  justify-between gap-8">
+    <div className="m-4 flex flex-col md:flex-row gap-6 md:gap-0 w-11/12 md:w-10/12 justify-between h-fit">
+      <div className="w-full md:w-[45%] space-y-6 ">
         {/* Featured Section */}
         <div className="flex items center flex-col md:flex-row gap-10 md:gap-5  ">
           <div>
