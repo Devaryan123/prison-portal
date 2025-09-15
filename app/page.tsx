@@ -8,6 +8,8 @@ import NextMiddle from "@/components/NextMiddle";
 import MiddleLast from "@/components/MiddleLast";
 import ShareCard from "@/components/ShareCard";
 import OverCrowding from "@/components/OverCrowding";
+import MoreTopics from "@/components/MoreTopics";
+import Footer from "@/components/Footer";
 
 const page = () => {
   return (
@@ -72,6 +74,12 @@ const page = () => {
       </div>
       <div>
         <MiddleLast></MiddleLast>
+      </div>
+      <div>
+        <MoreTopics></MoreTopics>
+      </div>
+      <div>
+        <Footer></Footer>
       </div>
     </div>
   );
