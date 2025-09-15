@@ -12,7 +12,7 @@ import Image from "next/image";
 
 const OverCrowding = () => {
     return (
-        <div className="w-11/12 md:w-10/12 flex flex-col items-center justify-center space-y-6 md:ml-20 ml-5 md:mt-10 mb-5 md:mb-10">
+        <div className="w-11/12 md:w-10/12 flex flex-col items-center justify-center space-y-6 md:ml-25 ml-5 md:mt-10 mb-5 md:mb-10">
             <div className="flex items-center gap-1 text-muted-foreground w-full">
                 <h3 className="font-medium text-lg">Overcrowding, Recidivism and Alternatives to Imprisonment</h3>
             </div>

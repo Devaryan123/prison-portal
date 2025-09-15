@@ -36,7 +36,7 @@ const Page: React.FC = () => {
         </p>
       </div>
 
-      <div className="border flex items-center justify-between p-1 md:p-2 rounded-full mt-10 m-10 md:ml-20">
+      <div className="border flex items-center justify-between p-1 md:p-2 rounded-full mt-10 m-10 md:ml-30 md:w-100">
         <Input
           value={searchQuery}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
