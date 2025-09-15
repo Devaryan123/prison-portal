@@ -7,7 +7,7 @@ export default function MiddlePage() {
     <div className="m-2 flex flex-col md:flex-row gap-6 md:gap-0 w-11/12 md:w-10/12 md:ml-15 justify-between h-fit">
       <div className="w-full md:w-[45%] space-y-6 ">
         {/* Featured Section */}
-        <div className="flex items center flex-col md:flex-row gap-10 md:gap-5  ">
+        <div className="flex items-center flex-col md:flex-row gap-10 md:gap-5  md:ml-20">
           <div>
             <div className="flex items-center flex-1 gap-3 mb-6 ">
               <Sparkles className="w-5 h-5 text-gray-600" />

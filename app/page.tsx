@@ -29,14 +29,14 @@ const Page: React.FC = () => {
 
   return (
     <div>
-      <div className="flex items-center mt-20">
-        <p className="text-3xl flex font-medium ml-8 md:ml-15 text-blue-800 font-serif w-80 h-25">
+      <div className="flex items-center mt-20 md:ml-20">
+        <p className="text-4xl flex font-medium ml-8 md:ml-15 text-blue-800 font-serif w-80 h-35">
           Your platform for prison reform & research
           <Lightbulb size={100} color="#c4c615" />
         </p>
       </div>
 
-      <div className="border flex items-center justify-between p-1 md:p-2 rounded-full mt-10 m-10">
+      <div className="border flex items-center justify-between p-1 md:p-2 rounded-full mt-10 m-10 md:ml-20">
         <Input
           value={searchQuery}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) =>
@@ -57,7 +57,7 @@ const Page: React.FC = () => {
         </button>
       </div>
 
-      <div className="flex flex-wrap gap-2 mt-5  px-10">
+      <div className="flex flex-wrap gap-2 mt-5  px-10 md:ml-20">
         <Badge
           variant="outline"
           className="rounded-2xl p-2 px-4 font-sans text-gray-500"
