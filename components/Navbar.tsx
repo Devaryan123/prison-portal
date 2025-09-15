@@ -1,15 +1,14 @@
 "use client";
 
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
 import {
   NavigationMenu,
-  NavigationMenuContent,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuList,
+  NavigationMenuList
 } from "@/components/ui/navigation-menu";
+import Image from "next/image";
+import Link from "next/link";
+import React from "react";
 import { Button } from "./ui/button";
 
 export default function Navbar() {
