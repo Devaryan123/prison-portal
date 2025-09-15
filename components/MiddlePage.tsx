@@ -118,7 +118,7 @@ export default function MiddlePage() {
 
                   {/* text/content */}
                   <div className="flex-2">
-                    <h3 className="text-lg font-bold text-blue-900 mb-3 leading-tight">
+                    <h3 className="text-lg font-bold text-blue-900 mb-3 leading-tight md:w-50">
                       Voices from Inside: Stories of Rehabilitation, Courage,
                       and Transformation
                     </h3>
@@ -154,7 +154,7 @@ export default function MiddlePage() {
 
                 {/* text/content */}
                 <div className="flex-1">
-                  <h3 className="text-lg font-bold text-blue-900 mb-3 leading-tight">
+                  <h3 className="text-lg font-bold text-blue-900 mb-3 leading-tight md:w-50">
                     Mental Health Behind the Bars: Understanding the Hidden
                     Crisis
                   </h3>
@@ -188,7 +188,7 @@ export default function MiddlePage() {
 
                 {/* text/content */}
                 <div className="flex-1">
-                  <h3 className="text-lg font-bold text-blue-900 mb-3 leading-tight">
+                  <h3 className="text-lg font-bold text-blue-900 mb-3 leading-tight md:w-50">
                     Women in Prison: Hidden Struggles, Rights, and Powerful
                     Resilience
                   </h3>
