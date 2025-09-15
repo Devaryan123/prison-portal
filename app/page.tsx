@@ -6,6 +6,7 @@ import { Flame } from "lucide-react";
 import MiddlePage from "../components/MiddlePage";
 import NextMiddle from "@/components/NextMiddle";
 import MiddleLast from "@/components/MiddleLast";
+import ShareCard from "@/components/ShareCard";
 
 const page = () => {
   return (
@@ -61,6 +62,9 @@ const page = () => {
       </div>
       <div>
         <MiddleLast></MiddleLast>
+      </div>
+      <div>
+        <ShareCard></ShareCard>
       </div>
     </div>
   );
