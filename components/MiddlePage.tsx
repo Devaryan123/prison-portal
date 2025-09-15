@@ -22,8 +22,6 @@ export default function NewsLayout() {
                     src="/Featured.webp"
                     alt="Prison corridor"
                     className="absolute inset-0 w-full h-full object-cover"
-                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
-
                   />
 
                   {/* Article label - appears on hover */}
